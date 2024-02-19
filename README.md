@@ -6,7 +6,7 @@
   <h1>Data Structures and Algorithms Lab</h1>
   <p>This repo contains basic data structures and algorithm problems that I solved as part of my course on Algorithm and Data Structure.</p>
   <h2>Contents</h2>
-  <ul>
+<!--   <ul>
     <li><a href="#stack">Stack</a></li>
     <li><a href="#queue">Queue</a></li>
     <li><a href="#linked-list">Linked List</a></li>
@@ -19,7 +19,7 @@
     <li><a href="#greedy">Greedy</a></li>
     <li><a href="#backtracking">Backtracking</a></li>
     <li><a href="#divide-and-conquer">Divide and Conquer</a></li>
-  </ul>
+  </ul> -->
   <h2>Stack</h2>
   <p>A stack is a linear data structure that follows the LIFO (Last In First Out) principle. It supports two basic operations: push and pop. Push adds an element to the top of the stack, and pop removes and returns the top element of the stack.</p>
   <p>In this repo, I have implemented a stack using an array and a linked list. I have also solved some problems using stack, such as:</p>
