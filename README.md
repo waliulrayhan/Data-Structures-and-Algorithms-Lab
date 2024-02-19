@@ -1,8 +1,4 @@
-<html>
-<head>
-  <title>Data Structures and Algorithms Lab</title>
-</head>
-<body>
+
   <h1>Data Structures and Algorithms Lab</h1>
   <p>This repo contains basic data structures and algorithm problems that I solved as part of my course on Algorithm and Data Structure.</p>
 <!--   <h2>Contents</h2>
@@ -47,5 +43,3 @@
   <!-- Add more sections for other topics -->
   <h2>License</h2>
   <p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
-</body>
-</html>
