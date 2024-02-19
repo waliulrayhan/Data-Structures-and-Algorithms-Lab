@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Exam_Practise_GraphAlgorithms">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/Exam_Practise_GraphAlgorithms.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
