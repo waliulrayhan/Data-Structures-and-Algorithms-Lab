@@ -5,8 +5,8 @@
 <body>
   <h1>Data Structures and Algorithms Lab</h1>
   <p>This repo contains basic data structures and algorithm problems that I solved as part of my course on Algorithm and Data Structure.</p>
-  <h2>Contents</h2>
-<!--   <ul>
+<!--   <h2>Contents</h2>
+  <ul>
     <li><a href="#stack">Stack</a></li>
     <li><a href="#queue">Queue</a></li>
     <li><a href="#linked-list">Linked List</a></li>
