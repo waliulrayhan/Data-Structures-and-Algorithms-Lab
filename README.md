@@ -1,45 +1,80 @@
+# Data Structures and Algorithms Lab
 
-  <h1>Data Structures and Algorithms Lab</h1>
-  <p>This repo contains basic data structures and algorithm problems that I solved as part of my course on Algorithm and Data Structure.</p>
-<!--   <h2>Contents</h2>
-  <ul>
-    <li><a href="#stack">Stack</a></li>
-    <li><a href="#queue">Queue</a></li>
-    <li><a href="#linked-list">Linked List</a></li>
-    <li><a href="#tree">Tree</a></li>
-    <li><a href="#graph">Graph</a></li>
-    <li><a href="#sorting">Sorting</a></li>
-    <li><a href="#searching">Searching</a></li>
-    <li><a href="#hashing">Hashing</a></li>
-    <li><a href="#dynamic-programming">Dynamic Programming</a></li>
-    <li><a href="#greedy">Greedy</a></li>
-    <li><a href="#backtracking">Backtracking</a></li>
-    <li><a href="#divide-and-conquer">Divide and Conquer</a></li>
-  </ul> -->
-  <h2>Stack</h2>
-  <p>A stack is a linear data structure that follows the LIFO (Last In First Out) principle. It supports two basic operations: push and pop. Push adds an element to the top of the stack, and pop removes and returns the top element of the stack.</p>
-  <p>In this repo, I have implemented a stack using an array and a linked list. I have also solved some problems using stack, such as:</p>
-  <ul>
-    <li>Checking balanced parentheses</li>
-    <li>Evaluating postfix expressions</li>
-    <li>Converting infix to postfix expressions</li>
-    <li>Reversing a string</li>
-  </ul>
-  <h2>Queue</h2>
-  <p>A queue is a linear data structure that follows the FIFO (First In First Out) principle. It supports two basic operations: enqueue and dequeue. Enqueue adds an element to the rear of the queue, and dequeue removes and returns the front element of the queue.</p>
-  <p>In this repo, I have implemented a queue using an array and a linked list. I have also implemented some variations of queue, such as:</p>
-  <ul>
-    <li>Circular queue</li>
-    <li>Priority queue</li>
-    <li>Double-ended queue (deque)</li>
-  </ul>
-  <p>I have also solved some problems using queue, such as:</p>
-  <ul>
-    <li>Breadth-first search (BFS) of a graph</li>
-    <li>Level order traversal of a tree</li>
-    <li>Implementing a stack using two queues</li>
-    <li>Implementing a queue using two stacks</li>
-  </ul>
-  <!-- Add more sections for other topics -->
-  <h2>License</h2>
-  <p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
+This repository contains a comprehensive collection of code implementations for various data structures and algorithmic problems. These programs were developed as part of my coursework on Data Structures and Algorithms, showcasing my understanding and application of fundamental and advanced techniques in computer science.
+
+## Contents
+
+### Sorting Algorithms
+- **Merge Sort**
+  - Implementations: `Merge_Sort.cpp`, `1.1 Merge Sort.c`, `1.3 Merge Sort using Random Numbers.c`
+  - Includes code to sort arrays efficiently using the divide-and-conquer approach.
+- **Quick Sort**
+  - Implementation: `2.1 Quick Sort using Random Numbers.c`
+  - A fast sorting algorithm utilizing partitioning and recursion.
+- **Heap Sort**
+  - Implementations: `Heap_Sort.cpp`, `heapSort.c`, `heapSort.cpp`
+  - Demonstrates sorting using binary heap data structure.
+- **Counting Sort**
+  - Implementations: `Counting_Sort.cpp`, `countingSort.cpp`
+  - A non-comparison-based sorting algorithm for positive integer arrays.
+- **Radix Sort**
+  - Implementation: `radixSort.cpp`
+  - Sorts numbers by processing digits from least to most significant.
+- **Huffman Coding**
+  - Implementations: `Huffman_Coding.cpp`, `HuffmanCoding.cpp`, `huffman.cpp`
+  - Encodes data using variable-length codes based on frequency of elements.
+
+### Searching Algorithms
+- **Binary Search Tree (BST)**
+  - Implementations: `BSTree.java`, `BinarySearchTree`, `BST`
+  - Provides basic operations like insertion, deletion, and searching within a binary search tree.
+
+### Graph Algorithms
+- **Breadth-First Search (BFS)**
+  - Implementation: `BFS_Algorithm`
+  - Explores graph nodes level by level, used for traversal and pathfinding.
+- **Graph Template**
+  - Implementation: `Graph_Template`
+  - Serves as a base for building graph-related algorithms.
+- **Other Graph Algorithms**
+  - Found in `GraphAlgorithm` for additional graph traversal and manipulation techniques.
+
+### Dynamic Programming
+- **Longest Common Subsequence (LCS)**
+  - Implementations: `LCS.cpp`, `Longest_Common_Subsequence.cpp`
+  - Solves the problem of finding the longest sequence common to two strings.
+- **Longest Increasing Subsequence (LIS)**
+  - Implementation: `LIS.cpp`
+  - Identifies the longest subsequence where elements are in increasing order.
+- **Knapsack Problem**
+  - Implementations: `01Knapsack.cpp`, `Knapsack.cpp`, `FractionalKnapsack.cpp`, `Fractional_Knapsack.cpp`, `fractionalKnapsack.cpp`
+  - Solves optimization problems using different knapsack approaches, including the 0/1 and fractional variants.
+
+### String Matching Algorithms
+- **KMP (Knuth-Morris-Pratt) Algorithm**
+  - Implementations: `KMP.cpp`
+  - Efficiently finds occurrences of a pattern within a text.
+- **Naive String Matching**
+  - Implementations: `NaiveApproach.cpp`, `Naive_String_Matching.cpp`
+  - A straightforward way of finding substrings within a string.
+
+### Backtracking and Subset Problems
+- **Sum of Subsets**
+  - Implementations: `SumOfSubset.cpp`, `Sum_of_Subset.cpp`, `sumOfSubset.cpp`
+  - Finds subsets of a set that sum to a given target value.
+
+## Requirements
+
+To run these codes, you will need:
+- A C/C++ compiler for `.cpp` and `.c` files.
+- A Java compiler or JDK for `.java` files.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+Feel free to explore, modify, and use these implementations as part of your study or projects. If you find any issues or would like to contribute improvements, please open an issue or submit a pull request.
+
+Happy coding! 😊
